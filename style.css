@@ -28,10 +28,11 @@ body {
 
 header {
     background-color: var(--backgroundYellow);
-    height: 10%;
+    clear: both;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 0;
 }
 
 header h1 {
@@ -41,6 +42,7 @@ header h1 {
 main {
     margin: auto;
     width: 90%;
+    margin-bottom: 120px;
 }
 
 main #openingDiv {
@@ -87,6 +89,10 @@ hr {
     margin-top: 30px;
     color: var(--textColorGreen);
     font-size: 30px;
+}
+
+#quizAreaDiv p hr {
+    margin-top: 10px;
 }
 
 #answersArea {

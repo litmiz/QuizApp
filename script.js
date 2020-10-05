@@ -161,7 +161,7 @@ function endQuiz() {
     const endP = document.createElement("p");
     endP.setAttribute("class", "endPClass");
     const codesP = document.createElement("p");
-    codesP.setAttribute("class", "endPClass");
+    codesP.setAttribute("class", "codesPClass");
     endP.textContent = 'הגעת לסוף השאלון, הקודים שהתקבלו הינם: ';
     codesP.textContent = '';
     answerCodes.forEach(code => {
