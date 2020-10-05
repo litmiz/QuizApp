@@ -125,7 +125,7 @@ function startQuiz(questionNumber) {
     answersArea.innerHTML = '';
 
     for (let i = 0; i < q.answer.length; i++) {
-        answersArea.innerHTML += `<label><input type="radio" id="ans_${i}" value="${i}"> ${q.answer[i]} </label>`;
+        answersArea.innerHTML += `<label><input type="radio" id="ans_${i}" value="${i}" name="answerRadio"> ${q.answer[i]} </label>`;
     }
 
     const nextBtn = document.createElement("button");
