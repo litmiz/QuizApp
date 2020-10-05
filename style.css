@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --textFont: sans-serif;
+    --backgroundYellow: #e6e66a;
+    --textColorGreen: #336666;
+    --textColorWhite: #ffffff;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: var(--textFont);
+    text-align: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(Images/deregA.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: var(--backgroundYellow);
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+main {
+    margin: auto;
+    width: 90%;
+}
+
+main #openingDiv {
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#openingDiv aside h2 {
+    margin-top: 30px;
+    color: var(--textColorGreen);
+    font-size: 30px;
+}
+
+#openingDiv aside p {
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 20px;
+}
+
+hr {
+    background-color: var(--backgroundYellow);
+    margin: 0 auto;
+    width: 500px;
+    /* border:  */
+    height: 5px;
+}
+
+.btnClass {
+    display: block;
+    margin: 0 auto;
+    background-color: var(--textColorGreen);
+    color: var(--textColorWhite);
+    font-size: 20px;
+    border-radius: 15px;
+    width: 200px;
+    height: 60px;
+    margin-top: 40px;
+}
+
+#quizAreaDiv p {
+    margin-top: 30px;
+    color: var(--textColorGreen);
+    font-size: 30px;
+}
+
+#answersArea {
+    margin-top: 10px;
+}
+
+#answersArea label {
+    font-size: 30px;
+}
+
+.codesPClass {
+    color: black;
+}
+
+footer {
+    background-color: var(--backgroundYellow);
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 0 10px;
+    width: 100%;
+}
+
+footer p {
+    line-height: 100px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+ footer #leftSideFooter {
+     float: left;
+    width: 100px;
+    height: 100px;
+}
+
+footer #rightSideFooter {
+    float: right;
+    width: 100px;
+    height: 100px;
+}
